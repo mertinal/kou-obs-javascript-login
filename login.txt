@@ -6,6 +6,7 @@ function okulno(text){
     var TheTextBox = document.getElementById("OgrNo");
     TheTextBox.value = text;
 }
+
 function pass(text){
     var TheTextBox = document.getElementById("Sifre");
     TheTextBox.value = text;
@@ -15,6 +16,7 @@ function tikla(){
     var btn=document.getElementById("Ara");
     btn.click();
 }
+
 function bildir() {
   var win = window.open("https://www.youtube.com/watch?v=HZmsv3ybSgU", '_blank');
   win.focus();
@@ -24,7 +26,6 @@ async function calistir() {
 	 
   for (let i = 0; i < 100000; i++) {
   try {
-  
 	  okulno("160201046");
 	  pass("Şifreniz buraya gelecek");
 	  tikla();
@@ -38,9 +39,7 @@ async function calistir() {
 		location.reload();
 		await sleep(1000);
 		calistir();
-  
 	}
-     
   }
 }
 calistir();
