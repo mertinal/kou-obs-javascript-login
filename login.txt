@@ -35,7 +35,8 @@ async function calistir() {
 	  }
 	}
 	catch(error) {
-		console.error(error);
+		location.reload();
+		await sleep(1000);
   
 	}
      
