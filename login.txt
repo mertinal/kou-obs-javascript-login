@@ -30,7 +30,7 @@ async function calistir() {
 	  pass("Şifreniz buraya gelecek");
 	  tikla();
 	   await sleep(1000);
-	  if(window.location!="https://ogr.kocaeli.edu.tr/koubs/ogrenci/index.cfm"){
+	  if(window.location.href!="https://ogr.kocaeli.edu.tr/koubs/ogrenci/index.cfm"){
 			bildir();
 			break;
 	  }
