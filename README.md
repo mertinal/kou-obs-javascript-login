@@ -1,7 +1,7 @@
 # kou-obs-javascript-login<br>
 1) https://ogr.kocaeli.edu.tr/koubs/ogrenci/index.cfm sayfasına gidin <br>
 2) sağ tık > incele > console veya f12 tuşuna basarak konsolu açın <br>
-3) satır 28'e okul no , satır 29 a şifre gelecek o kısmı düzenledikten sonra konsola yapışıtırın<br>
+3) ligin.txt de bulunan satır 28'e okul no , satır 29 a şifre gelecek o kısmı düzenledikten sonra konsola yapışıtırın<br>
 4) Entera basın.
 
 # Not : 
