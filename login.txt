@@ -1,3 +1,5 @@
+//Bilgi için : https://github.com/mertinal/kou-obs-javascript-login/blob/master/README.md
+
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
